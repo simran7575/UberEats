@@ -1,17 +1,17 @@
 import { useState } from "react";
 import { View, Image, StyleSheet, Text, ScrollView } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import IconButton from "../components/IconButton";
-import TitleText from "../components/TitleText";
-import DetailContainer from "../components/DetailContainer";
-import Divider from "../components/Divider";
-import AddressInfo from "../components/AddressInfo";
-import AdvantageList from "../components/AdvantageList";
-import DeliveryFee from "../components/DeliveryFee";
-import MenuContainer from "../components/MenuContainer";
-import BottomDescriptionBar from "../components/BottomDescriptionBar";
+import IconButton from "../../components/IconButton";
+import TitleText from "../../components/TitleText";
+import DetailContainer from "../../components/DetailContainer";
+import Divider from "../../components/Divider";
+import AddressInfo from "./dishdetailComponents/AddressInfo";
+import AdvantageList from "./dishdetailComponents/AdvantageList";
+import DeliveryFee from "./dishdetailComponents/DeliveryFee";
+import MenuContainer from "./dishdetailComponents/MenuContainer";
+import BottomDescriptionBar from "./dishdetailComponents/BottomDescriptionBar";
 // create a component
-function MealDetail() {
+function DishDetail() {
   const [isLiked, setIsLiked] = useState(false);
 
   const changeLike = () => {
@@ -135,4 +135,4 @@ const styles = StyleSheet.create({
 });
 
 //make this component available to the app
-export default MealDetail;
+export default DishDetail;

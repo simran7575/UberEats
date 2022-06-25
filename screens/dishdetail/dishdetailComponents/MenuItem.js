@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet } from "react-native";
-import TitleText from "./TitleText";
+import TitleText from "../../../components/TitleText";
 
 // create a component
 function MenuItem({ item }) {

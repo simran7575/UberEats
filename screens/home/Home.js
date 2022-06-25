@@ -1,16 +1,16 @@
 import { useState } from "react";
 import { View, StyleSheet, ScrollView } from "react-native";
-import RenderCarousel from "../../components/RenderCarousel";
-import Headers from "../../components/Headers";
-import LocationSelect from "../../components/LocationSelect";
+import RenderCarousel from "./homeComponents/RenderCarousel";
+import Headers from "./homeComponents/Headers";
+import LocationSelect from "./homeComponents/LocationSelect";
 import Divider from "../../components/Divider";
-import Categories from "../../components/Categories";
+import Categories from "./homeComponents/Categories";
 import {
   FavouriteMealData,
   MoreToExploreData,
   PopularNearYouData,
 } from "../../data/FavouriteMealData";
-import CardList from "../../components/CardList";
+import CardList from "./homeComponents/CardList";
 import TitleText from "../../components/TitleText";
 
 // create a component

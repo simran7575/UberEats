@@ -8,15 +8,15 @@ export const ITEM_WIDTH = Math.round(SLIDER_WIDTH * 1);
 const data = [
   {
     id: 1,
-    url: require("../assets/slide_1.jpg"),
+    url: require("../../../assets/slide_1.jpg"),
   },
   {
     id: 2,
-    url: require("../assets/slide_2.jpg"),
+    url: require("../../../assets/slide_2.jpg"),
   },
   {
     id: 3,
-    url: require("../assets/slide_3.jpg"),
+    url: require("../../../assets/slide_3.jpg"),
   },
 ];
 

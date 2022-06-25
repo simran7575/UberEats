@@ -1,9 +1,9 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import Account from "../screens/Account";
-import Home from "../screens/home/Home";
-import Grocery from "../screens/Grocery";
-import Orders from "../screens/Orders";
-import Search from "../screens/Search";
+import Account from "../../account/Account";
+import Home from "../Home";
+import Grocery from "../../grocery/Grocery";
+import Orders from "../../orders/Orders";
+import Search from "../../search/Search";
 import { Ionicons } from "@expo/vector-icons";
 
 const Tab = createBottomTabNavigator();

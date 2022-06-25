@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet, FlatList, ScrollView } from "react-native";
-import CategoriesData from "../data/CategoriesData";
+import CategoriesData from "../../../data/CategoriesData";
 import CategoryItem from "./CategoryItem";
 
 // create a component

@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet } from "react-native";
-import TitleText from "./TitleText";
-import IconButton from "./IconButton";
+import TitleText from "../../../components/TitleText";
+import IconButton from "../../../components/IconButton";
 
 // create a component
 function DeliveryFee() {

@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet } from "react-native";
-import { MenuItems } from "../data/MenuItems";
+import { MenuItems } from "../../../data/MenuItems";
 import MenuItem from "./MenuItem";
 // create a component
 function MenuList() {

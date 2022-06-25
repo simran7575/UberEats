@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { Ionicons } from "@expo/vector-icons";
-import DetailContainer from "./DetailContainer";
+import DetailContainer from "../../../components/DetailContainer";
 
 // create a component
 //{ id, url, title, description, rating, duration, units }

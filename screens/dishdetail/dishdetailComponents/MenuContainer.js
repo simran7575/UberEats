@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet } from "react-native";
 import MenuSearch from "./MenuSearch";
-import TitleText from "./TitleText";
+import TitleText from "../../../components/TitleText";
 import MenuList from "./MenuList";
 
 // create a component

@@ -1,6 +1,6 @@
-import { View, Text, StyleSheet, FlatList } from "react-native";
+import { View, StyleSheet, FlatList } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import TitleText from "./TitleText";
+import TitleText from "../../../components/TitleText";
 import RenderAdvantageList from "./RenderAdvantageList";
 
 const data = [
